@@ -1,2 +1,151 @@
 ﻿body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-family: "Open Sans Light",'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(195, 195, 195);
+}
+
+header, section, footer, nav, main, article, figure {
+    display: block;
+}
+
+.page_header {
+    margin-left: 266.7px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+header h1 {
+}
+
+body > nav {
+    height: 56.90px;
+    background: rgb(219, 89, 64);
+    margin: 0px;
+}
+
+    body > nav > header {
+        float: left;
+    }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body > nav > ul {
+    float: right;
+    padding-right: 266.7px;
+    word-spacing: 30.58px;
+}
+
+    body > nav > ul > li {
+        display: inline;
+    }
+
+body > main > header > h3 {
+    margin: 0;
+    word-spacing: 13.57px;
+    font-family: "Open Sans Light",'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.content_header {
+    padding-top: 32.14px;
+}
+
+body > main > header > p {
+    margin: 0;
+    word-spacing: 7px;
+}
+
+body > main > header {
+    background: rgb(57, 55, 59);
+    text-align: center;
+    margin: 0px;
+    font-family: "Open Sans Light",'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+body > main {
+    clear: both;
+    margin: 0;
+}
+
+.header_image {
+    background: url(/Content/Images/Layer1.png);
+    -ms-background-size: cover;
+    background-size: cover;
+    height: 287.34px;
+    margin: 0px;
+    margin-top: 32.14px;
+}
+
+body > header {
+    margin: 0px;
+}
+
+.first_header {
+    margin: 0px;
+}
+
+.short_info {
+    background: rgb(244, 244, 244);
+    padding-left: 291px;
+    padding-right: 291px;
+    height: 298.72px;
+    padding-top: 55px;
+}
+
+    .short_info > article {
+        float: left;
+    }
+
+.icon {
+    height: 48.36px;
+    width: 48.36px;
+    padding: 24.18px;
+    /*margin: 24.18px;*/
+    margin: 0 auto;
+}
+
+.icon_large {
+    height: 145.8px;
+    width: 145.8px;
+    border: 3px;
+    border-color: darkgray;
+    border-radius: 50%;
+}
+
+
+.long_info {
+    clear: both;
+    margin-left: 291px;
+    margin-right: 291px;
+}
+
+    .long_info > article {
+        float: left;
+    }
+
+.contact_info {
+    margin-left: 291px;
+    margin-right: 291px;
+    clear: both;
+}
+
+.no_float {
+    clear: both;
+}
+
+.icon_frame {
+    height: 68px;
+    width: 68px;
+    border: 3px;
+    border-color: darkgray;
+    border-radius: 100%;
+    margin: 0;
 }
