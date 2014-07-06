@@ -70,7 +70,13 @@
     <Content Include="Content\Images\pen.png" />
     <Content Include="Content\Images\to_right.png" />
     <Content Include="Content\Styles\Fonts.css" />
+    <Content Include="Content\Styles\Fonts.min.css">
+      <DependentUpon>Fonts.css</DependentUpon>
+    </Content>
     <Content Include="Content\Styles\Site.css" />
+    <Content Include="Content\Styles\Site.min.css">
+      <DependentUpon>Site.css</DependentUpon>
+    </Content>
     <Content Include="Index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
