@@ -42,22 +42,22 @@
 }
 
 .icon_heart {
-    background: url(/Content/Images/heart.png) no-repeat;
+    background: url(../Images/heart.png) no-repeat;
     background-size: contain;
 }
 
 .icon_pen {
-    background: url(/Content/Images/pen.png) no-repeat;
+    background: url(../Images/pen.png) no-repeat;
     background-size: contain;
 }
 
 .icon_flag {
-    background: url(/Content/Images/flag.png) no-repeat;
+    background: url(../Images/flag.png) no-repeat;
     background-size: contain;
 }
 
 .icon_right {
-    background: url(/Content/Images/to_right.png) no-repeat;
+    background: url(../Images/to_right.png) no-repeat;
     background-size: contain;
     height: 27px;
     width: 27px;
@@ -65,36 +65,36 @@
 }
 
 .icon_flight {
-    background: url(/Content/Images/flight.png) no-repeat;
+    background: url(../Images/flight.png) no-repeat;
     background-size: contain;
 }
 
 .icon_micro {
-    background: url(/Content/Images/micro.png) no-repeat;
+    background: url(../Images/micro.png) no-repeat;
     background-size: contain;
 }
 
 .icon_man {
-    background: url(/Content/Images/Man.png) no-repeat;
+    background: url(../Images/Man.png) no-repeat;
     background-size: contain;
 }
 
 .icon_kid {
-    background: url(/Content/Images/Layer2.png) no-repeat;
+    background: url(../Images/Layer2.png) no-repeat;
     background-size: contain;
 }
 
 .icon_god {
-    background: url(/Content/Images/Layer4.png) no-repeat;
+    background: url(../Images/Layer4.png) no-repeat;
     background-size: contain;
 }
 
 .icon_birds {
-    background: url(/Content/Images/Layer3.png) no-repeat;
+    background: url(../Images/Layer3.png) no-repeat;
     background-size: contain;
 }
 
 .icon_tree {
-    background: url(/Content/Images/Layer5.png) no-repeat;
+    background: url(../Images/Layer5.png) no-repeat;
     background-size: contain;
 }
