@@ -1,0 +1,41 @@
+﻿.short_info {
+    text-align: center;
+    background: rgb(244, 244, 244);
+    padding-left: 291px;
+    height: 233px;
+    padding-top: 41px;
+    padding-bottom: 26px;
+    margin-top: 0;
+}
+
+    .short_info > article {
+        float: left;
+        width: 210.5px;
+        height: 232.8px;
+        padding-right: 55px;
+    }
+
+        .short_info > article:hover {
+            -moz-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+.icon {
+    height: 36.4px;
+    width: 36.4px;
+    padding-top: 17px;
+    padding-left: 5px;
+}
+
+.icon_frame {
+    height: 70.7px;
+    width: 70.7px;
+    border: 2px solid darkgray;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

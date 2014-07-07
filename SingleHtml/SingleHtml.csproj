@@ -69,10 +69,22 @@
     <Content Include="Content\Images\Micro.png" />
     <Content Include="Content\Images\pen.png" />
     <Content Include="Content\Images\to_right.png" />
+    <Content Include="Content\Styles\contact_info.css" />
+    <Content Include="Content\Styles\content_header.css" />
     <Content Include="Content\Styles\Fonts.css" />
     <Content Include="Content\Styles\Fonts.min.css">
       <DependentUpon>Fonts.css</DependentUpon>
     </Content>
+    <Content Include="Content\Styles\input_form.css" />
+    <Content Include="Content\Styles\long_info.css" />
+    <Content Include="Content\Styles\MyBundle.css">
+      <DependentUpon>MyBundle.css.bundle</DependentUpon>
+    </Content>
+    <Content Include="Content\Styles\MyBundle.min.css">
+      <DependentUpon>MyBundle.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Styles\nav.css" />
+    <Content Include="Content\Styles\short_info.css" />
     <Content Include="Content\Styles\Site.css" />
     <Content Include="Content\Styles\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
@@ -86,6 +98,7 @@
   <ItemGroup>
     <Content Include="Content\Fonts\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" />
     <Content Include="Content\Fonts\DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="Content\Styles\MyBundle.css.bundle" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
