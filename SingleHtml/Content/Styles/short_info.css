@@ -13,6 +13,10 @@
         width: 210.5px;
         height: 232.8px;
         padding-right: 55px;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
     }
 
         .short_info > article:hover {
@@ -24,9 +28,9 @@
         }
 
 .icon {
-    height: 36.4px;
-    width: 36.4px;
-    padding-top: 17px;
+    height: 38px;
+    width: 40px;
+    padding-top: 18px;
     padding-left: 5px;
 }
 

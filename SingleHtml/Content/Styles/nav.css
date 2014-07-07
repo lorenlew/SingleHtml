@@ -1,6 +1,6 @@
 ﻿nav {
+    width: 1349px;
     height: 56.90px;
-    background: rgb(219, 89, 64);
     margin: 0;
     color: darkgray;
     color: rgba(255, 255, 255, 0.7);
@@ -22,6 +22,6 @@
             font-size: x-small;
         }
 
-            nav  ul > li:hover {
-                color: #ffffff;
-            }
+    nav ul > li:hover {
+        color: #ffffff;
+    }

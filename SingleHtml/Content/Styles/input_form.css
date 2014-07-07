@@ -24,6 +24,7 @@
         height: 33.6px;
         width: 82.9px;
         display: inline-block;
+        cursor: pointer; 
     }
 
         .input_form button:hover {

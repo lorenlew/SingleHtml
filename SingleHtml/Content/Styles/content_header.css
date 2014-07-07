@@ -8,6 +8,7 @@
     font-weight: 400;
     color: #ffffff;
     color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 30px;
 }
 
     .content_header > h3 {
@@ -30,5 +31,4 @@
     background-size: contain;
     height: 284px;
     margin: 0 auto;
-    margin-top: 30px;
 }
