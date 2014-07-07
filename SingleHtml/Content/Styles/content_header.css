@@ -25,7 +25,7 @@
 
 .header_image {
     width: 1349px;
-    background: url(/Content/Images/Layer1.png) no-repeat;
+    background: url(../Images/Layer1.png) no-repeat;
     -ms-background-size: contain;
     background-size: contain;
     height: 284px;
