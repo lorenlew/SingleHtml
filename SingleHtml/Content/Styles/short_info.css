@@ -26,20 +26,3 @@
             -webkit-transform: scale(1.2);
             transform: scale(1.2);
         }
-
-.icon {
-    height: 38px;
-    width: 40px;
-    padding-top: 18px;
-    padding-left: 5px;
-}
-
-.icon_frame {
-    height: 70.7px;
-    width: 70.7px;
-    border: 2px solid darkgray;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}

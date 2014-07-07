@@ -24,7 +24,7 @@
         height: 33.6px;
         width: 82.9px;
         display: inline-block;
-        cursor: pointer; 
+        cursor: pointer;
     }
 
         .input_form button:hover {
@@ -44,4 +44,3 @@
         outline-color: rgb(195, 195, 195);
         outline-width: 8px;
     }
-

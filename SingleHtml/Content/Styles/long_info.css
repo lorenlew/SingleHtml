@@ -55,8 +55,6 @@
         transform: translateX(-40px);
     }
 
-
-
 .right_long_info {
     height: 334px;
     width: 359.3px;
@@ -96,12 +94,3 @@
         -webkit-transform: translateX(40px);
         transform: translateX(40px);
     }
-
-.icon_large {
-    height: 145.8px;
-    width: 145.8px;
-    border: 3px;
-    border-color: darkgray;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-}

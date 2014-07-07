@@ -6,20 +6,20 @@
     <title>Main page</title>
 </head>
 <body>
-    <div  class="nav_wrapper">
-            <nav class="center-positioned">
-                      <header class="nav_header">
-                          <h4 class="first_header">Sitename</h4>
-                      </header>
-                      <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Services</a></li>
-                          <li><a href="#">Work</a></li>
-                          <li><a href="#">Contacts</a></li>
-                      </ul>
-                  </nav>
-    </div >
+    <div class="nav_wrapper">
+        <nav class="center-positioned">
+            <header class="nav_header">
+                <h4 class="first_header">Sitename</h4>
+            </header>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="content_header">
         <h3 class="first_header">
             I AM THE WAY, THE TRUTH, AND THE LIFE.
@@ -29,13 +29,16 @@
         </p>
     </header>
     <main>
-        <figure class="header_image">
-        </figure>
+        <div class="header_image_wrapper">
+            <figure class="header_image">
+            </figure>
+        </div>
         <div class="short_info_wrapper">
             <section class="short_info center-positioned">
                 <article>
                     <figure class="icon_frame">
-                        <img class="icon" src="Content/Images/heart.png" />
+                        <figure class="icon icon_heart">
+                        </figure>
                     </figure>
                     <h3>
                         Chronicles 16:11
@@ -44,12 +47,14 @@
                         Seek the LORD and his strenth; seek his presence continually!
                     </p>
                     <a href="#">
-                        <img src="Content/Images/to_right.png" alt="go" />
+                        <figure class="icon_right">
+                        </figure>
                     </a>
                 </article>
                 <article>
                     <figure class="icon_frame">
-                        <img class="icon" src="Content/Images/pen.png" />
+                        <figure class="icon icon_pen">
+                        </figure>
                     </figure>
                     <h3>
                         Romans 12:12
@@ -58,12 +63,14 @@
                         Rejoice in hope, be patient in tribulation, be constant in prayer.
                     </p>
                     <a href="#">
-                        <img src="Content/Images/to_right.png" alt="go" />
+                        <figure class="icon_right">
+                        </figure>
                     </a>
                 </article>
                 <article>
                     <figure class="icon_frame">
-                        <img class="icon" src="Content/Images/flag.png" />
+                        <figure class="icon icon_flag">
+                        </figure>
                     </figure>
                     <h3>
                         Philippians 4:13
@@ -72,12 +79,12 @@
                         I can do all things through him who strengthens me.
                     </p>
                     <a href="#">
-                        <img src="Content/Images/to_right.png" alt="go" />
+                        <figure class="icon_right">
+                        </figure>
                     </a>
                 </article>
             </section>
         </div>
-
         <section class="long_info center-positioned" lang="la">
             <section class="left_long_info">
                 <article>
@@ -93,7 +100,8 @@
                         </p>
                     </div>
                     <figure>
-                        <img class="icon_large" src="Content/Images/Layer2.png" />
+                        <figure class="icon_large icon_kid">
+                        </figure>
                     </figure>
                 </article>
                 <article>
@@ -108,15 +116,14 @@
                             </mark>
                         </p>
                     </div>
-                    <figure>
-                        <img class="icon_large" src="Content/Images/Layer4.png" />
-                    </figure>
+                    <figure class="icon_large icon_god"></figure>
                 </article>
             </section>
             <section class="right_long_info">
                 <article>
                     <figure>
-                        <img class="icon_large" src="Content/Images/Layer3.png" />
+                        <figure class="icon_large icon_birds">
+                        </figure>
                     </figure>
                     <div>
                         <h3>
@@ -131,8 +138,7 @@
                     </div>
                 </article>
                 <article>
-                    <figure>
-                        <img class="icon_large" src="Content/Images/Layer5.png" />
+                    <figure class="icon_large icon_tree">
                     </figure>
                     <div>
                         <h3>
@@ -148,12 +154,11 @@
                 </article>
             </section>
         </section>
-
         <div class="contact_info_wrapper">
             <section class="contact_info center-positioned">
                 <article>
                     <figure class="small_icon_frame">
-                        <img class="small_icon" src="Content/Images/flight.png" />
+                        <figure class="small_icon icon_flight"></figure>
                     </figure>
                     <p>
                         facebook.com/sitename
@@ -164,7 +169,7 @@
                 </article>
                 <article>
                     <figure class="small_icon_frame">
-                        <img class="small_icon" src="Content/Images/Micro.png" />
+                        <figure class="small_icon icon_micro"></figure>
                     </figure>
                     <p>
                         " Donec consectetuer vulputate se m tristiq donec odio com "
@@ -172,14 +177,13 @@
                 </article>
                 <article>
                     <figure class="small_icon_frame">
-                        <img class="small_icon" src="Content/Images/Man.png" />
+                        <figure class="small_icon icon_man"></figure>
                     </figure>
                     <p>
                         Email: info@sitename.com
                     </p>
                     <p>
                         Call us: (000) 777 7777 7777
-
                     </p>
                 </article>
             </section>
@@ -189,14 +193,11 @@
                 Vivamus vesinqu
             </h3>
             <form name="input" action="" method="POST">
-                <input type="email" name="email" placeholder="your email id here..." class="input_inner">
-                <!--
-                    -->
-                <button type="submit">Subscribe</button>
+                <input type="email" name="email" placeholder="your email id here..." class="input_inner"><!--
+                --><button type="submit">Subscribe</button>
             </form>
         </section>
     </main>
-
     <footer>
         <p>
             Copyright(c) website name.

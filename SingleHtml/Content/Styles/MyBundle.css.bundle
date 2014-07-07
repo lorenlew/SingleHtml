@@ -13,14 +13,15 @@
   </settings>
   <!--The order of the <file> elements determines the order of the files in the bundle.-->
   <files>
-    <file>/Content/Styles/contact_info.css</file>
-    <file>/Content/Styles/content_header.css</file>
+    <file>/Content/Styles/icons.css</file>
     <file>/Content/Styles/Fonts.css</file>
-    <file>/Content/Styles/input_form.css</file>
-    <file>/Content/Styles/long_info.css</file>
     <file>/Content/Styles/nav.css</file>
-    <file>/Content/Styles/short_info.css</file>
-    <file>/Content/Styles/Site.css</file> 
     <file>/Content/Styles/wrappers.css</file>
+    <file>/Content/Styles/content_header.css</file>
+    <file>/Content/Styles/short_info.css</file>
+    <file>/Content/Styles/long_info.css</file>
+    <file>/Content/Styles/contact_info.css</file>
+    <file>/Content/Styles/input_form.css</file>
+    <file>/Content/Styles/Site.css</file>
   </files>
 </bundle>
