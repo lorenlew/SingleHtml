@@ -1,9 +1,8 @@
 ﻿.long_info {
     clear: both;
-    margin-left: 266px;
-    margin-right: 50px;
+    margin: 0 auto;
     height: 334px;
-    width: 764px;
+    width: 1083px;
     padding-top: 36.5px;
     padding-bottom: 75px;
     line-height: 1.8;
@@ -14,42 +13,43 @@
     }
 
 
- .left_long_info {
+.left_long_info {
     height: 334px;
     width: 382.9px;
     margin: 0;
     padding-right: 21.4px;
+    padding-left: 135px;
     float: left;
 }
 
-.left_long_info div {
-    width: 215.7px;
-    height: 146px;
-    float: left;
-    text-align: right;
-}
+    .left_long_info div {
+        width: 215.7px;
+        height: 146px;
+        float: left;
+        text-align: right;
+    }
 
-.left_long_info figure {
-    margin: 0;
-    padding: 0;
-    height: 145.8px;
-    width: 145.8px;
-    float: right;
-}
+    .left_long_info figure {
+        margin: 0;
+        padding: 0;
+        height: 145.8px;
+        width: 145.8px;
+        float: right;
+    }
 
-.left_long_info article {
-    height: 146px;
-    width: 382.9px;
-    padding-top: 21.4px;
-}
+    .left_long_info article {
+        height: 146px;
+        width: 382.9px;
+        padding-top: 21.4px;
+    }
 
-.left_long_info > article:hover {
-    -moz-transform: rotate(2deg)scale(1.1);
-    -ms-transform: rotate(2deg)scale(1.1);
-    -o-transform: rotate(2deg)scale(1.1);
-    -webkit-transform: rotate(2deg)scale(1.1);
-    transform: rotate(2deg)scale(1.1);
-}
+    .left_long_info > article:hover {
+        -moz-transform: rotate(2deg)scale(1.1);
+        -ms-transform: rotate(2deg)scale(1.1);
+        -o-transform: rotate(2deg)scale(1.1);
+        -webkit-transform: rotate(2deg)scale(1.1);
+        transform: rotate(2deg)scale(1.1);
+    }
 
 
 

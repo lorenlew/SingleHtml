@@ -20,6 +20,7 @@
     <file>/Content/Styles/long_info.css</file>
     <file>/Content/Styles/nav.css</file>
     <file>/Content/Styles/short_info.css</file>
-    <file>/Content/Styles/Site.css</file>
+    <file>/Content/Styles/Site.css</file> 
+    <file>/Content/Styles/wrappers.css</file>
   </files>
 </bundle>

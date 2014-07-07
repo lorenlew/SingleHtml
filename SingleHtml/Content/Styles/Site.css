@@ -10,7 +10,9 @@
     -webkit-hyphens: manual;
     hyphens: manual;
 }
-
+html {
+    background-color: inherit;
+}
 header, section, footer, nav, main, article, figure {
     display: block;
 }
@@ -72,6 +74,33 @@ footer {
     height: 1px;
     background: rgb(99, 99, 100);
 }
+
+.center-positioned {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*nav {
     height: 56.90px;

@@ -24,10 +24,11 @@
     }
 
 .header_image {
+    width: 1349px;
     background: url(/Content/Images/Layer1.png) no-repeat;
     -ms-background-size: contain;
     background-size: contain;
     height: 284px;
-    margin: 0;
+    margin: 0 auto;
     margin-top: 30px;
 }

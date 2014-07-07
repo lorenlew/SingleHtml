@@ -2,7 +2,7 @@
     height: 56.90px;
     background: rgb(219, 89, 64);
     margin: 0;
-    color: #ffffff;
+    color: darkgray;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -11,6 +11,7 @@
     }
 
     nav > ul {
+        margin: 17px;
         float: right;
         padding-right: 271px;
         word-spacing: 30.58px;
@@ -20,3 +21,7 @@
             display: inline;
             font-size: x-small;
         }
+
+            nav  ul > li:hover {
+                color: #ffffff;
+            }
