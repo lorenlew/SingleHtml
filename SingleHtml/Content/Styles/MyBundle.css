@@ -6,8 +6,8 @@
 }
 
 .icon_frame {
-    height: 70.7px;
-    width: 70.7px;
+    height: 71px;
+    width: 71px;
     border: 2px solid darkgray;
     -ms-border-radius: 50%;
     border-radius: 50%;
@@ -23,8 +23,8 @@
 }
 
 .small_icon_frame {
-    height: 49.1px;
-    width: 49.1px;
+    height: 49px;
+    width: 49px;
     border: 2px solid darkgray;
     -ms-border-radius: 50%;
     border-radius: 50%;
@@ -33,8 +33,9 @@
 }
 
 .icon_large {
-    height: 145.8px;
-    width: 145.8px;
+    background-size: contain;
+    height: 146px;
+    width: 146px;
     border: 3px;
     border-color: darkgray;
     -ms-border-radius: 50%;
@@ -79,26 +80,6 @@
     background-size: contain;
 }
 
-.icon_kid {
-    background: url(../Images/Layer2.png) no-repeat;
-    background-size: contain;
-}
-
-.icon_god {
-    background: url(../Images/Layer4.png) no-repeat;
-    background-size: contain;
-}
-
-.icon_birds {
-    background: url(../Images/Layer3.png) no-repeat;
-    background-size: contain;
-}
-
-.icon_tree {
-    background: url(../Images/Layer5.png) no-repeat;
-    background-size: contain;
-}
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -113,11 +94,10 @@
 }
 
 nav {
-    width: 1349px;
-    height: 56.90px;
     margin: 0;
     color: darkgray;
     color: rgba(255, 255, 255, 0.7);
+    overflow: hidden;
 }
 
     nav > header {
@@ -125,10 +105,11 @@ nav {
     }
 
     nav > ul {
-        margin: 17px;
+        margin-top: 16px;
+        margin-bottom: 18px;
+        padding-left: 0;
         float: right;
-        padding-right: 271px;
-        word-spacing: 30.58px;
+        word-spacing: 31px;
     }
 
         nav > ul > li {
@@ -141,7 +122,6 @@ nav {
     }
 
 .nav_header {
-    margin-left: 266.7px;
     margin-top: 17px;
     margin-bottom: 17px;
     font-weight: normal;
@@ -178,7 +158,7 @@ nav {
 
     .content_header > h3 {
         margin: inherit;
-        word-spacing: 13.57px;
+        word-spacing: 14px;
         font-family: inherit;
         font-weight: inherit;
     }
@@ -190,28 +170,56 @@ nav {
     }
 
 .header_image {
-    width: 1349px;
-    background: url(../Images/Layer1.png) no-repeat;
-    -ms-background-size: contain;
-    background-size: contain;
-    height: 284px;
+    background-image: url(../Images/Layer1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
+    max-height: 300px;
+    max-width: 1000px;
+}
+
+.CoverImage {
+    background-image: url(../Images/Layer1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-height: 404px;
+    max-width: 1920px;
+}
+
+.FlexEmbed {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+    .FlexEmbed:before {
+        content: "";
+        display: block;
+        width: 100%;
+    }
+
+.FlexEmbed--3by1:before {
+    padding-bottom: 21%;
 }
 
 .short_info {
     width: 1058px;
     text-align: center;
-    padding-left: 291px;
     height: 233px;
     padding-top: 41px;
     padding-bottom: 26px;
     margin-top: 0;
+    clear: both;
+    overflow: hidden;
 }
 
     .short_info > article {
         float: left;
-        width: 210.5px;
-        height: 232.8px;
+        width: 211px;
+        height: 233px;
         padding-right: 55px;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
@@ -229,12 +237,13 @@ nav {
 
 .long_info {
     clear: both;
+    overflow: hidden;
     margin: 0 auto;
     height: 334px;
     width: 1083px;
-    padding-top: 36.5px;
+    padding-top: 37px;
     padding-bottom: 75px;
-    line-height: 1.8;
+    line-height: 2;
 }
 
     .long_info > article {
@@ -244,15 +253,13 @@ nav {
 
 .left_long_info {
     height: 334px;
-    width: 382.9px;
     margin: 0;
-    padding-right: 21.4px;
-    padding-left: 135px;
+    padding-right: 21px;
     float: left;
 }
 
     .left_long_info div {
-        width: 215.7px;
+        width: 216px;
         height: 146px;
         float: left;
         text-align: right;
@@ -261,15 +268,15 @@ nav {
     .left_long_info figure {
         margin: 0;
         padding: 0;
-        height: 145.8px;
-        width: 145.8px;
+        height: 146px;
+        width: 146px;
         float: right;
     }
 
     .left_long_info article {
         height: 146px;
-        width: 382.9px;
-        padding-top: 21.4px;
+        width: 383px;
+        padding-top: 21px;
         -moz-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         -webkit-transition: all 1s ease-out;
@@ -286,7 +293,7 @@ nav {
 
 .right_long_info {
     height: 334px;
-    width: 359.3px;
+    width: 359px;
     margin: 0;
     display: inline-block;
 }
@@ -301,15 +308,15 @@ nav {
     .right_long_info figure {
         margin: 0;
         padding: 0;
-        height: 145.8px;
-        width: 145.8px;
+        height: 146px;
+        width: 146px;
         float: left;
     }
 
     .right_long_info article {
         height: 146px;
-        width: 360.7px;
-        padding-top: 21.4px;
+        width: 361px;
+        padding-top: 21px;
         -moz-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         -webkit-transition: all 1s ease-out;
@@ -326,27 +333,26 @@ nav {
 
 .contact_info {
     margin: 0;
-    padding-left: 268.6px;
     clear: both;
-    height: 163.1px;
-    width: 1080px;
+    padding-top: 57px;
+    padding-bottom: 57px;
     display: block;
+    overflow: hidden;
 }
 
     .contact_info p {
         margin: 0;
-        padding-left: 72.9px;
+        padding-left: 73px;
         padding-top: 8px;
-        width: 177.8px;
+        width: 178px;
         color: rgb(121, 120, 128);
     }
 
     .contact_info > article {
         float: left;
-        width: 252.8px;
-        height: 51.4px;
+        width: 253px;
+        height: 52px;
         padding-right: 36px;
-        padding-top: 57px;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
         -webkit-transition: all 0.4s ease-in-out;
@@ -365,6 +371,10 @@ nav {
             line-height: 2;
         }
 
+        .contact_info > article:nth-child(3) {
+            padding-right: 0;
+        }
+
         .contact_info > article:nth-child(1) {
             padding-right: 0;
         }
@@ -377,18 +387,17 @@ nav {
 .input_form {
     text-align: center;
     margin: 0;
-    height: 84px;
     background: rgb(57, 55, 59);
-    padding-top: 47.9px;
-    padding-bottom: 29.3px;
+    padding-top: 49px;
+    padding-bottom: 29px;
 }
 
     .input_form h3 {
         text-align: center;
         margin: 0;
-        padding-bottom: 22.1px;
+        padding-bottom: 22px;
         font-weight: 100;
-        letter-spacing: 6.4px;
+        letter-spacing: 6px;
     }
 
     .input_form button {
@@ -397,8 +406,8 @@ nav {
         border: 2px;
         border-color: rgb(244, 244, 244);
         border-radius: 0px 6px 6px 0px;
-        height: 33.6px;
-        width: 82.9px;
+        height: 33px;
+        width: 83px;
         display: inline-block;
         cursor: pointer;
     }
@@ -411,12 +420,12 @@ nav {
     .input_form .input_inner {
         color: rgb(244, 244, 244);
         background: rgb(219, 89, 64);
-        width: 325.7px;
-        height: 33.6px;
+        width: 326px;
+        height: 31px;
         border: 2px;
         border-color: rgb(219, 89, 64);
         border-radius: 6px 0px 0px 6px;
-        padding-left: 15.7px;
+        padding-left: 18px;
         outline-color: rgb(195, 195, 195);
         outline-width: 8px;
     }
@@ -435,6 +444,7 @@ body {
 }
 
 html {
+    height: 100%;
     background-color: inherit;
 }
 
@@ -472,7 +482,7 @@ footer {
     text-align: center;
     background: rgb(57, 55, 59);
     color: rgb(121, 120, 128);
-    padding-bottom: 44.3px;
+    padding-bottom: 44px;
     line-height: 2;
 }
 
@@ -490,4 +500,6 @@ footer {
 
 .center-positioned {
     margin: 0 auto;
+    width: 798px;
 }
+

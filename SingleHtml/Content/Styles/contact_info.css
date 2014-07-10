@@ -1,26 +1,25 @@
 ﻿.contact_info {
     margin: 0;
-    padding-left: 268.6px;
     clear: both;
-    height: 163.1px;
-    width: 1080px;
+    padding-top: 57px;
+    padding-bottom: 57px;
     display: block;
+    overflow: hidden;
 }
 
     .contact_info p {
         margin: 0;
-        padding-left: 72.9px;
+        padding-left: 73px;
         padding-top: 8px;
-        width: 177.8px;
+        width: 178px;
         color: rgb(121, 120, 128);
     }
 
     .contact_info > article {
         float: left;
-        width: 252.8px;
-        height: 51.4px;
+        width: 253px;
+        height: 52px;
         padding-right: 36px;
-        padding-top: 57px;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
         -webkit-transition: all 0.4s ease-in-out;
@@ -37,6 +36,10 @@
 
         .contact_info > article:nth-child(2) > p {
             line-height: 2;
+        }
+
+        .contact_info > article:nth-child(3) {
+            padding-right: 0;
         }
 
         .contact_info > article:nth-child(1) {

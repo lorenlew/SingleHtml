@@ -1,18 +1,17 @@
 ﻿.input_form {
     text-align: center;
     margin: 0;
-    height: 84px;
     background: rgb(57, 55, 59);
-    padding-top: 47.9px;
-    padding-bottom: 29.3px;
+    padding-top: 49px;
+    padding-bottom: 29px;
 }
 
     .input_form h3 {
         text-align: center;
         margin: 0;
-        padding-bottom: 22.1px;
+        padding-bottom: 22px;
         font-weight: 100;
-        letter-spacing: 6.4px;
+        letter-spacing: 6px;
     }
 
     .input_form button {
@@ -21,8 +20,8 @@
         border: 2px;
         border-color: rgb(244, 244, 244);
         border-radius: 0px 6px 6px 0px;
-        height: 33.6px;
-        width: 82.9px;
+        height: 33px;
+        width: 83px;
         display: inline-block;
         cursor: pointer;
     }
@@ -35,12 +34,12 @@
     .input_form .input_inner {
         color: rgb(244, 244, 244);
         background: rgb(219, 89, 64);
-        width: 325.7px;
-        height: 33.6px;
+        width: 326px;
+        height: 31px;
         border: 2px;
         border-color: rgb(219, 89, 64);
         border-radius: 6px 0px 0px 6px;
-        padding-left: 15.7px;
+        padding-left: 18px;
         outline-color: rgb(195, 195, 195);
         outline-width: 8px;
     }

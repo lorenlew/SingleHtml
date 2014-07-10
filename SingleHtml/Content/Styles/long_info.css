@@ -1,11 +1,12 @@
 ﻿.long_info {
     clear: both;
+    overflow: hidden;
     margin: 0 auto;
     height: 334px;
     width: 1083px;
-    padding-top: 36.5px;
+    padding-top: 37px;
     padding-bottom: 75px;
-    line-height: 1.8;
+    line-height: 2;
 }
 
     .long_info > article {
@@ -15,15 +16,13 @@
 
 .left_long_info {
     height: 334px;
-    width: 382.9px;
     margin: 0;
-    padding-right: 21.4px;
-    padding-left: 135px;
+    padding-right: 21px;
     float: left;
 }
 
     .left_long_info div {
-        width: 215.7px;
+        width: 216px;
         height: 146px;
         float: left;
         text-align: right;
@@ -32,15 +31,15 @@
     .left_long_info figure {
         margin: 0;
         padding: 0;
-        height: 145.8px;
-        width: 145.8px;
+        height: 146px;
+        width: 146px;
         float: right;
     }
 
     .left_long_info article {
         height: 146px;
-        width: 382.9px;
-        padding-top: 21.4px;
+        width: 383px;
+        padding-top: 21px;
         -moz-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         -webkit-transition: all 1s ease-out;
@@ -57,7 +56,7 @@
 
 .right_long_info {
     height: 334px;
-    width: 359.3px;
+    width: 359px;
     margin: 0;
     display: inline-block;
 }
@@ -72,15 +71,15 @@
     .right_long_info figure {
         margin: 0;
         padding: 0;
-        height: 145.8px;
-        width: 145.8px;
+        height: 146px;
+        width: 146px;
         float: left;
     }
 
     .right_long_info article {
         height: 146px;
-        width: 360.7px;
-        padding-top: 21.4px;
+        width: 361px;
+        padding-top: 21px;
         -moz-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         -webkit-transition: all 1s ease-out;

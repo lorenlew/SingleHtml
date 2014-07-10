@@ -12,7 +12,7 @@
 
     .content_header > h3 {
         margin: inherit;
-        word-spacing: 13.57px;
+        word-spacing: 14px;
         font-family: inherit;
         font-weight: inherit;
     }
@@ -24,10 +24,37 @@
     }
 
 .header_image {
-    width: 1349px;
-    background: url(../Images/Layer1.png) no-repeat;
-    -ms-background-size: contain;
-    background-size: contain;
-    height: 284px;
+    background-image: url(../Images/Layer1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
+    max-height: 300px;
+    max-width: 1000px;
+}
+
+.CoverImage {
+    background-image: url(../Images/Layer1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-height: 404px;
+    max-width: 1920px;
+}
+
+.FlexEmbed {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+    .FlexEmbed:before {
+        content: "";
+        display: block;
+        width: 100%;
+    }
+
+.FlexEmbed--3by1:before {
+    padding-bottom: 21%;
 }
