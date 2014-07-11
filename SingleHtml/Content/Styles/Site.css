@@ -12,7 +12,6 @@
 }
 
 html {
-    height: 100%;
     background-color: inherit;
 }
 
@@ -68,5 +67,12 @@ footer {
 
 .center-positioned {
     margin: 0 auto;
+    width: 1170px;
+}
+
+.center-positioned-local {
+    margin: 0 auto;
+    overflow: hidden;
     width: 798px;
 }
+

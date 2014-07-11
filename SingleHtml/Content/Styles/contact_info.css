@@ -15,34 +15,35 @@
         color: rgb(121, 120, 128);
     }
 
-    .contact_info > article {
+    .contact_info  article {
         float: left;
         width: 253px;
-        height: 52px;
         padding-right: 36px;
+        padding-top: 2px;
+        padding-bottom: 2px;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
         -webkit-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
     }
 
-        .contact_info > article:hover {
-            -moz-transform: translateY(10px);
-            -ms-transform: translateY(10px);
-            -o-transform: translateY(10px);
-            -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+        .contact_info  article:hover {
+            -moz-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+            -o-transform: translateY(2px);
+            -webkit-transform: translateY(2px);
+            transform: translateY(2px);
         }
 
-        .contact_info > article:nth-child(2) > p {
+        .contact_info  article:nth-child(2) > p {
             line-height: 2;
         }
 
-        .contact_info > article:nth-child(3) {
+        .contact_info  article:nth-child(3) {
             padding-right: 0;
         }
 
-        .contact_info > article:nth-child(1) {
+        .contact_info  article:nth-child(1) {
             padding-right: 0;
         }
 

@@ -1,7 +1,5 @@
 ﻿.short_info {
-    width: 1058px;
     text-align: center;
-    height: 233px;
     padding-top: 41px;
     padding-bottom: 26px;
     margin-top: 0;
@@ -9,7 +7,7 @@
     overflow: hidden;
 }
 
-    .short_info > article {
+    .short_info article {
         float: left;
         width: 211px;
         height: 233px;
@@ -20,10 +18,10 @@
         transition: all 0.4s ease-in-out;
     }
 
-        .short_info > article:hover {
-            -moz-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            -o-transform: scale(1.2);
-            -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+        .short_info article:hover {
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
         }

@@ -1,16 +1,35 @@
 ﻿.nav_wrapper {
     background-color: rgb(219, 89, 64);
+    min-width: 1170px;
+}
+
+.header_wrapper {
+    background-color: rgb(57, 55, 59);
+    min-width: 1170px;
+}
+
+.header_image_wrapper {
+    background-color: rgb(57, 55, 59);
+    min-width: 1170px;
 }
 
 .short_info_wrapper {
     background-color: rgb(244, 244, 244);
+    min-width: 1170px;
 }
 
 .contact_info_wrapper {
     background-color: rgb(57, 55, 59);
     border-bottom: 1px solid rgb(99, 99, 100);
+    min-width: 1170px;
 }
 
-.header_image_wrapper {
+.input-form_wrapper {
     background-color: rgb(57, 55, 59);
+    min-width: 1170px;
+}
+
+.footer_wrapper {
+    background-color: rgb(57, 55, 59);
+    min-width: 1170px;
 }
